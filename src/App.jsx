@@ -10,6 +10,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Register from "./pages/Register";
 import ProfileSetup from "./pages/ProfileSetup";
 import Login from "./pages/Login";
+import Account from "./pages/Account";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -54,6 +55,7 @@ export default function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/profile-setup" element={<ProfileSetup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/account" element={<Account />} />
       </Routes>
 
       <Footer />

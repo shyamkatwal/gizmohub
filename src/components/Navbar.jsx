@@ -188,7 +188,7 @@ export default function Navbar() {
           {user ? (
             <div className="hidden items-center gap-3 md:flex">
               <Link
-                to="/profile-setup"
+                to="/account"
                 className="flex items-center gap-2 rounded-full bg-violet-50 px-3 py-2 text-violet-800 hover:bg-violet-100"
               >
                 <User size={18} />
@@ -275,7 +275,7 @@ export default function Navbar() {
                 </div>
 
                 <Link
-                  to="/profile-setup"
+                  to="/account"
                   onClick={() => setMenuOpen(false)}
                   className="block text-sm font-semibold text-violet-700"
                 >
